@@ -18,5 +18,5 @@
   <description>This plugin allows you to login via Microsoft Azure AD.</description>
 
   <!-- This is the launch button in the plugin manager. If it is blank or missing, Configure Plugin will show up. -->
-    <button>Configure Azure AD</button>
+    <button>Azure AD</button>
 </plugin>
