@@ -17,7 +17,6 @@ if (in_array($user->data()->id, $master_account))
         $db->query("ALTER TABLE settings ADD azureclientid varchar(255)");
         $db->query("ALTER TABLE settings ADD azureclientsecret varchar(255)");
         $db->query("ALTER TABLE settings ADD azurecallback varchar(255)");
-        $db->query("ALTER TABLE settings ADD azureredirect varchar(255)");
         $db->query("ALTER TABLE settings ADD azuremulti TINYINT DEFAULT 0");
         $db->query("ALTER TABLE settings ADD azuretenant varchar(255)");
 
